@@ -1,0 +1,50 @@
+{
+  ".vscode/mcp.json": {
+    "mtime": 1777059420705.5405,
+    "hash": "f379347bd44231ed133462aa2ae502aa"
+  },
+  "src/app/app.config.server.ts": {
+    "mtime": 1777059436561.6084,
+    "hash": "3970e45a18d96e13afe0e0f10cbda945"
+  },
+  "src/app/app.config.ts": {
+    "mtime": 1777059436549.311,
+    "hash": "e1978f055f740e1641b0ed7fe20958ae"
+  },
+  "src/app/app.routes.server.ts": {
+    "mtime": 1782841296304.5723,
+    "hash": "e3949d1ac93bac01992ca9c0043cf2d1"
+  },
+  "src/app/app.spec.ts": {
+    "mtime": 1777059420705.91,
+    "hash": "ebb752ba05ad38898430fb2f3ce04418"
+  },
+  "src/app/app.ts": {
+    "mtime": 1782931064972.9937,
+    "hash": "b0d1ba5ec5747bf10e6d8198cf7376e3"
+  },
+  "src/main.server.ts": {
+    "mtime": 1777059436559.5947,
+    "hash": "413965f5fdd5f62861a8d9725eed3f20"
+  },
+  "src/main.ts": {
+    "mtime": 1777059436544.9856,
+    "hash": "f3983daa46dc263bf3c8d0dd448a5a01"
+  },
+  "src/server.ts": {
+    "mtime": 1777059436569.7747,
+    "hash": "c2084deff29ae6b97b48c5a161c71338"
+  },
+  "README.md": {
+    "mtime": 1777059420704.5928,
+    "hash": "5ff26be0d1eebae43d3edf9aaa37f077"
+  },
+  "src/app/app.html": {
+    "mtime": 1783095865069.2708,
+    "hash": "f657b0d8051692b5b9d983f8e872e965"
+  },
+  "src/index.html": {
+    "mtime": 1777059436556.4336,
+    "hash": "0f77b703ff5d142f33fd05cd9aa18f97"
+  }
+}

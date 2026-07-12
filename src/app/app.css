@@ -1,0 +1,274 @@
+/* Game Container */
+.game-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.user-greeting {
+  font-weight: bold;
+  color: #333;
+}
+
+.top-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-btn {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.profile-btn:hover {
+  background: #4f46e5;
+}
+
+.age-btn {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #90caf9;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.age-btn:hover {
+  background: #bbdefb;
+}
+
+.logout-btn {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.level-indicator {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+  background: #e3f2fd;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.score-board {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.target-number {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.digit {
+  font-size: 48px;
+  font-weight: 900;
+  background: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 #1976d2;
+}
+
+.message-container {
+  font-size: 18px;
+  padding: 10px;
+  color: #444;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.message-container.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Operations Grid */
+.operations-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.operation-row {
+  position: relative;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s;
+}
+
+.operation-row.correct {
+  border-color: #4caf50;
+  background: #f1f8e9;
+}
+
+.formula-source {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.formula-interactive {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.formula-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.input-box {
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.input-box:focus {
+  border-color: #2196f3;
+}
+
+.operation-row.correct .input-box {
+  background: #e8f5e9;
+  border-color: #4caf50;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.status-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+}
+
+/* Age Editor */
+.age-editor-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.age-editor-back {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-back {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-back:hover {
+  background: #f5f5f5;
+}
+
+/* Session timeout warning */
+.session-warning {
+  max-width: 600px;
+  margin: 0 auto 0;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border: 1px solid #ffb74d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  animation: slideDown 0.35s ease-out;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.session-warning:hover {
+  background: linear-gradient(135deg, #ffe0b2, #ffcc80);
+}
+
+.session-warning-icon {
+  font-size: 22px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.session-warning-text {
+  font-size: 15px;
+  color: #6d4c00;
+  line-height: 1.4;
+}
+
+.session-warning-text strong {
+  color: #e65100;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.2); }
+}
+
+/* Loading */
+.loading-state {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  color: #666;
+}

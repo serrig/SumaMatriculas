@@ -42,3 +42,22 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Claude Code
+.agents/
+.claude/
+skills-lock.json
+
+# Knowledge graph cache & analysis (not portable)
+.graphify/cache/
+.graphify/.graphify/
+.graphify/.graphify_*.json
+.graphify/branch.json
+.graphify/worktree.json
+.graphify/needs_update
+
+# Environments
+.env
+/src/environments/environment.ts
+.mcp.json
+

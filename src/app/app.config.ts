@@ -2,8 +2,5 @@ import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideBrowserGlobalErrorListeners(), provideClientHydration(withEventReplay()),
-    
-  ]
+  providers: [provideBrowserGlobalErrorListeners(), provideClientHydration(withEventReplay())],
 };
