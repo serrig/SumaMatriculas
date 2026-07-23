@@ -2,6 +2,13 @@
   "directed": false,
   "multigraph": false,
   "graph": {
+    "provenance": {
+      "source_owner": "git",
+      "source_id": "repo:github.com/serrig/SumaMatriculas",
+      "observed_at": "2026-07-23T17:37:08.819Z",
+      "source_hash": "677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "adapter_version": "graphify-git/1"
+    },
     "community_labels": {
       "0": "Community 0",
       "1": "Community 1",
@@ -10,13 +17,11 @@
       "4": "Community 4",
       "5": "Community 5",
       "6": "Community 6",
-      "7": "Community 7",
-      "8": "Community 8",
-      "9": "Community 9"
+      "7": "Community 7"
     },
-    "built_from_commit": "2932650d1e9fcb5f05a2816d5ba0e8297c77c50e"
+    "built_from_commit": "677db73dd70fe148de4ad4d6f7139a9b8b43a44d"
   },
-  "topology_signature": "n=74;e=86;app_age_profile_component,app_age_profile_component_ageprofilecomponent,app_age_profile_component_ageprofilecomponent_saveage,app_app,app_app_app,app_app_config,app_app_config_appconfig,app_app_config_server,app_app_config_server_config,app_app_config_server_serverconfig,app_app_routes_server,app_app_routes_server_serverroutes,app_app_spec,app_auth_component,app_auth_component_authcomponent,app_auth_component_authcomponent_onsubmit,app_auth_component_authcomponent_togglemode,app_game_service,app_game_service_gameoperation,app_game_service_gameoperationpart,app_game_service_gameservice,app_game_service_gameservice_checkwincondition,app_game_service_gameservice_constructor,app_game_service_gameservice_fetchprofile,app_game_service_gameservice_generatenewround,app_game_service_gameservice_initauth,app_game_service_gameservice_login,app_game_service_gameservice_logout,app_game_service_gameservice_register,app_game_service_gameservice_saveage,app_game_service_gameservice_setlevel,app_game_service_gameservice_updateinput,app_html,app_html_auth_flow,app_html_formula_interactive,app_html_game_container,app_html_loading_state,app_html_operations_grid,app_html_score_board,app_html_target_number,claude_md,claude_md_graphify_explain,claude_md_graphify_knowledge_graph,claude_md_graphify_path,claude_md_graphify_query,claude_md_graphify_review_delta,claude_md_graphify_summary,claude_md_hook_rebuild,claude_md_portable_check,claude_md_pretooluse_hooks,index_html,index_html_app_root,index_html_suma_matriculas_title,readme_md,readme_md_angular_cli,readme_md_build_system,readme_md_code_scaffolding,readme_md_dev_server,readme_md_e2e_testing,readme_md_suma_matriculas,readme_md_vitest,set_env,set_env_envdir,set_env_envpath,set_env_fs,set_env_path,src_main,src_main_server,src_main_server_bootstrap,src_server,src_server_angularapp,src_server_app,src_server_browserdistfolder,src_server_reqhandler|app_age_profile_component\tapp_age_profile_component_ageprofilecomponent\tcontains;app_age_profile_component_ageprofilecomponent\tapp_age_profile_component_ageprofilecomponent_saveage\tmethod;app_age_profile_component_ageprofilecomponent\tapp_html_auth_flow\trenders;app_app\tapp_app_app\tcontains;app_app\tapp_app_spec\timports_from;app_app\tsrc_main\timports_from;app_app\tsrc_main_server\timports_from;app_app_app\tapp_app_spec\timports;app_app_app\tindex_html_app_root\trenders;app_app_app\tsrc_main\timports;app_app_app\tsrc_main_server\timports;app_app_config\tapp_app_config_appconfig\tcontains;app_app_config_server\tapp_app_config_server_config\tcontains;app_app_config_server\tapp_app_config_server_serverconfig\tcontains;app_app_routes_server\tapp_app_routes_server_serverroutes\tcontains;app_app_spec\treadme_md_vitest\tconceptually_related_to;app_auth_component\tapp_auth_component_authcomponent\tcontains;app_auth_component_authcomponent\tapp_auth_component_authcomponent_onsubmit\tmethod;app_auth_component_authcomponent\tapp_auth_component_authcomponent_togglemode\tmethod;app_auth_component_authcomponent\tapp_html_auth_flow\trenders;app_game_service\tapp_game_service_gameoperation\tcontains;app_game_service\tapp_game_service_gameoperationpart\tcontains;app_game_service\tapp_game_service_gameservice\tcontains;app_game_service_gameoperation\tapp_html_operations_grid\tconceptually_related_to;app_game_service_gameservice\tapp_game_service_gameservice_checkwincondition\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_constructor\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_fetchprofile\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_generatenewround\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_initauth\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_login\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_logout\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_register\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_saveage\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_setlevel\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_updateinput\tmethod;app_game_service_gameservice\tapp_html_auth_flow\treferences;app_game_service_gameservice\tapp_html_game_container\treferences;app_game_service_gameservice\tapp_html_score_board\treferences;app_game_service_gameservice\tapp_html_target_number\treferences;app_game_service_gameservice_checkwincondition\tapp_game_service_gameservice_updateinput\tcalls;app_game_service_gameservice_constructor\tapp_game_service_gameservice_initauth\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_generatenewround\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_generatenewround\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_saveage\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_updateinput\tapp_html_formula_interactive\tcalls;app_html\tapp_html_auth_flow\tcontains;app_html\tapp_html_game_container\tcontains;app_html\tapp_html_loading_state\tcontains;app_html_formula_interactive\tapp_html_operations_grid\tcontains;app_html_game_container\tapp_html_operations_grid\tcontains;app_html_game_container\tapp_html_score_board\tcontains;app_html_game_container\tapp_html_target_number\tcontains;claude_md\tclaude_md_graphify_knowledge_graph\tdescribes;claude_md_graphify_explain\tclaude_md_graphify_knowledge_graph\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_path\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_query\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_review_delta\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_summary\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_hook_rebuild\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_portable_check\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_pretooluse_hooks\tconceptually_related_to;claude_md_hook_rebuild\treadme_md_suma_matriculas\tconceptually_related_to;index_html\tindex_html_app_root\tcontains;index_html\tindex_html_suma_matriculas_title\tcontains;index_html_suma_matriculas_title\treadme_md_suma_matriculas\tconceptually_related_to;readme_md\treadme_md_suma_matriculas\tdescribes;readme_md_angular_cli\treadme_md_code_scaffolding\tprovides;readme_md_angular_cli\treadme_md_suma_matriculas\tbuilt_with;readme_md_build_system\treadme_md_suma_matriculas\thas_workflow;readme_md_build_system\tsrc_server_browserdistfolder\tconceptually_related_to;readme_md_code_scaffolding\treadme_md_suma_matriculas\thas_workflow;readme_md_dev_server\treadme_md_suma_matriculas\thas_workflow;readme_md_dev_server\tsrc_main\tconceptually_related_to;readme_md_dev_server\tsrc_server\tconceptually_related_to;readme_md_e2e_testing\treadme_md_suma_matriculas\thas_workflow;readme_md_suma_matriculas\treadme_md_vitest\thas_workflow;set_env\tset_env_envdir\tcontains;set_env\tset_env_envpath\tcontains;set_env\tset_env_fs\tcontains;set_env\tset_env_path\tcontains;src_main_server\tsrc_main_server_bootstrap\tcontains;src_server\tsrc_server_angularapp\tcontains;src_server\tsrc_server_app\tcontains;src_server\tsrc_server_browserdistfolder\tcontains;src_server\tsrc_server_reqhandler\tcontains",
+  "topology_signature": "n=111;e=153;app_age_profile_component,app_age_profile_component_ageprofilecomponent,app_age_profile_component_ageprofilecomponent_saveage,app_app,app_app_app,app_app_app_constructor,app_app_app_toggleageeditor,app_app_app_toggleprofile,app_app_config,app_app_config_appconfig,app_app_config_server,app_app_config_server_config,app_app_config_server_serverconfig,app_app_routes_server,app_app_routes_server_serverroutes,app_app_spec,app_app_spec_fakeresponse,app_app_spec_flush,app_app_spec_nosession,app_app_spec_stubfetch,app_app_spec_user,app_app_spec_withprofile,app_auth_component,app_auth_component_authcomponent,app_auth_component_authcomponent_loginwithgoogle,app_auth_component_authcomponent_onsubmit,app_auth_component_authcomponent_togglemode,app_game_service,app_game_service_gameoperation,app_game_service_gameoperationpart,app_game_service_gameservice,app_game_service_gameservice_checkwincondition,app_game_service_gameservice_clearinactivitytimers,app_game_service_gameservice_constructor,app_game_service_gameservice_extendsession,app_game_service_gameservice_fetchoperationhistory,app_game_service_gameservice_fetchprofile,app_game_service_gameservice_generatenewround,app_game_service_gameservice_initauth,app_game_service_gameservice_login,app_game_service_gameservice_loginwithgoogle,app_game_service_gameservice_logout,app_game_service_gameservice_register,app_game_service_gameservice_saveage,app_game_service_gameservice_setlevel,app_game_service_gameservice_startinactivitymonitor,app_game_service_gameservice_updateinput,app_game_service_usersession,app_html,app_html_auth_flow,app_html_formula_interactive,app_html_game_container,app_html_loading_state,app_html_operations_grid,app_html_score_board,app_html_target_number,app_profile_component,app_profile_component_profilecomponent,app_profile_component_profilecomponent_barcolor,app_profile_component_profilecomponent_constructor,app_profile_component_profilecomponent_formatdaylabel,app_profile_component_profilecomponent_formattime,app_profile_component_profilecomponent_funemoji,app_profile_component_profilecomponent_funfact,app_profile_component_profilecomponent_goback,app_profile_component_profilecomponent_loadstats,app_profile_component_profilecomponent_speedemoji,app_profile_component_profilecomponent_speedpercent,app_profile_component_profilecomponent_speedtext,app_profile_component_profilecomponent_trackbydate,branch:repo:github.com/serrig/SumaMatriculas#feature/testing,branch:repo:github.com/serrig/SumaMatriculas#master,claude_md,claude_md_graphify_explain,claude_md_graphify_knowledge_graph,claude_md_graphify_path,claude_md_graphify_query,claude_md_graphify_review_delta,claude_md_graphify_summary,claude_md_hook_rebuild,claude_md_portable_check,claude_md_pretooluse_hooks,commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e,commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d,index_html,index_html_app_root,index_html_suma_matriculas_title,readme_md,readme_md_angular_cli,readme_md_build_system,readme_md_code_scaffolding,readme_md_dev_server,readme_md_e2e_testing,readme_md_suma_matriculas,readme_md_vitest,set_env,set_env_envdir,set_env_envpath,set_env_fs,set_env_path,src_main,src_main_server,src_main_server_bootstrap,src_server,src_server_angularapp,src_server_app,src_server_browserdistfolder,src_server_pgstore,src_server_pool,src_server_reqhandler,src_server_requireauth|app_age_profile_component\tapp_age_profile_component_ageprofilecomponent\tcontains;app_age_profile_component\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_age_profile_component_ageprofilecomponent\tapp_age_profile_component_ageprofilecomponent_saveage\tmethod;app_age_profile_component_ageprofilecomponent\tapp_html_auth_flow\trenders;app_app\tapp_app_app\tcontains;app_app\tapp_app_spec\timports_from;app_app\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tMODIFIES;app_app\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_app\tsrc_main\timports_from;app_app\tsrc_main_server\timports_from;app_app_app\tapp_app_app_constructor\tmethod;app_app_app\tapp_app_app_toggleageeditor\tmethod;app_app_app\tapp_app_app_toggleprofile\tmethod;app_app_app\tapp_app_spec\timports;app_app_app\tindex_html_app_root\trenders;app_app_app\tsrc_main\timports;app_app_app\tsrc_main_server\timports;app_app_config\tapp_app_config_appconfig\tcontains;app_app_config\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tMODIFIES;app_app_config\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_app_config_server\tapp_app_config_server_config\tcontains;app_app_config_server\tapp_app_config_server_serverconfig\tcontains;app_app_config_server\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tMODIFIES;app_app_config_server\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_app_routes_server\tapp_app_routes_server_serverroutes\tcontains;app_app_routes_server\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tMODIFIES;app_app_routes_server\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_app_spec\tapp_app_spec_fakeresponse\tcontains;app_app_spec\tapp_app_spec_flush\tcontains;app_app_spec\tapp_app_spec_nosession\tcontains;app_app_spec\tapp_app_spec_stubfetch\tcontains;app_app_spec\tapp_app_spec_user\tcontains;app_app_spec\tapp_app_spec_withprofile\tcontains;app_app_spec\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tMODIFIES;app_app_spec\treadme_md_vitest\tconceptually_related_to;app_auth_component\tapp_auth_component_authcomponent\tcontains;app_auth_component\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_auth_component_authcomponent\tapp_auth_component_authcomponent_loginwithgoogle\tmethod;app_auth_component_authcomponent\tapp_auth_component_authcomponent_onsubmit\tmethod;app_auth_component_authcomponent\tapp_auth_component_authcomponent_togglemode\tmethod;app_auth_component_authcomponent\tapp_html_auth_flow\trenders;app_game_service\tapp_game_service_gameoperation\tcontains;app_game_service\tapp_game_service_gameoperationpart\tcontains;app_game_service\tapp_game_service_gameservice\tcontains;app_game_service\tapp_game_service_usersession\tcontains;app_game_service\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_game_service_gameoperation\tapp_html_operations_grid\tconceptually_related_to;app_game_service_gameservice\tapp_game_service_gameservice_checkwincondition\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_clearinactivitytimers\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_constructor\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_extendsession\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_fetchoperationhistory\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_fetchprofile\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_generatenewround\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_initauth\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_login\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_loginwithgoogle\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_logout\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_register\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_saveage\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_setlevel\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_startinactivitymonitor\tmethod;app_game_service_gameservice\tapp_game_service_gameservice_updateinput\tmethod;app_game_service_gameservice\tapp_html_auth_flow\treferences;app_game_service_gameservice\tapp_html_game_container\treferences;app_game_service_gameservice\tapp_html_score_board\treferences;app_game_service_gameservice\tapp_html_target_number\treferences;app_game_service_gameservice_checkwincondition\tapp_game_service_gameservice_updateinput\tcalls;app_game_service_gameservice_clearinactivitytimers\tapp_game_service_gameservice_extendsession\tcalls;app_game_service_gameservice_clearinactivitytimers\tapp_game_service_gameservice_logout\tcalls;app_game_service_gameservice_constructor\tapp_game_service_gameservice_initauth\tcalls;app_game_service_gameservice_extendsession\tapp_game_service_gameservice_startinactivitymonitor\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_generatenewround\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_initauth\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_login\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_register\tcalls;app_game_service_gameservice_fetchprofile\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_generatenewround\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_initauth\tapp_game_service_gameservice_startinactivitymonitor\tcalls;app_game_service_gameservice_login\tapp_game_service_gameservice_startinactivitymonitor\tcalls;app_game_service_gameservice_register\tapp_game_service_gameservice_startinactivitymonitor\tcalls;app_game_service_gameservice_saveage\tapp_game_service_gameservice_setlevel\tcalls;app_game_service_gameservice_updateinput\tapp_html_formula_interactive\tcalls;app_html\tapp_html_auth_flow\tcontains;app_html\tapp_html_game_container\tcontains;app_html\tapp_html_loading_state\tcontains;app_html_formula_interactive\tapp_html_operations_grid\tcontains;app_html_game_container\tapp_html_operations_grid\tcontains;app_html_game_container\tapp_html_score_board\tcontains;app_html_game_container\tapp_html_target_number\tcontains;app_profile_component\tapp_profile_component_profilecomponent\tcontains;app_profile_component\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tMODIFIES;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_barcolor\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_constructor\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_formatdaylabel\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_formattime\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_funemoji\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_funfact\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_goback\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_loadstats\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_speedemoji\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_speedpercent\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_speedtext\tmethod;app_profile_component_profilecomponent\tapp_profile_component_profilecomponent_trackbydate\tmethod;app_profile_component_profilecomponent_constructor\tapp_profile_component_profilecomponent_loadstats\tcalls;branch:repo:github.com/serrig/SumaMatriculas#feature/testing\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tON_BRANCH;branch:repo:github.com/serrig/SumaMatriculas#feature/testing\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tON_BRANCH;branch:repo:github.com/serrig/SumaMatriculas#master\tcommit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tON_BRANCH;branch:repo:github.com/serrig/SumaMatriculas#master\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tON_BRANCH;claude_md\tclaude_md_graphify_knowledge_graph\tdescribes;claude_md_graphify_explain\tclaude_md_graphify_knowledge_graph\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_path\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_query\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_review_delta\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_graphify_summary\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_hook_rebuild\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_portable_check\thas_tool;claude_md_graphify_knowledge_graph\tclaude_md_pretooluse_hooks\tconceptually_related_to;claude_md_hook_rebuild\treadme_md_suma_matriculas\tconceptually_related_to;commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tcommit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tPARENT_OF;commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tsrc_main\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tsrc_main_server\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e\tsrc_server\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tset_env\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tsrc_main\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tsrc_main_server\tMODIFIES;commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d\tsrc_server\tMODIFIES;index_html\tindex_html_app_root\tcontains;index_html\tindex_html_suma_matriculas_title\tcontains;index_html_suma_matriculas_title\treadme_md_suma_matriculas\tconceptually_related_to;readme_md\treadme_md_suma_matriculas\tdescribes;readme_md_angular_cli\treadme_md_code_scaffolding\tprovides;readme_md_angular_cli\treadme_md_suma_matriculas\tbuilt_with;readme_md_build_system\treadme_md_suma_matriculas\thas_workflow;readme_md_build_system\tsrc_server_browserdistfolder\tconceptually_related_to;readme_md_code_scaffolding\treadme_md_suma_matriculas\thas_workflow;readme_md_dev_server\treadme_md_suma_matriculas\thas_workflow;readme_md_dev_server\tsrc_main\tconceptually_related_to;readme_md_dev_server\tsrc_server\tconceptually_related_to;readme_md_e2e_testing\treadme_md_suma_matriculas\thas_workflow;readme_md_suma_matriculas\treadme_md_vitest\thas_workflow;set_env\tset_env_envdir\tcontains;set_env\tset_env_envpath\tcontains;set_env\tset_env_fs\tcontains;set_env\tset_env_path\tcontains;src_main_server\tsrc_main_server_bootstrap\tcontains;src_server\tsrc_server_angularapp\tcontains;src_server\tsrc_server_app\tcontains;src_server\tsrc_server_browserdistfolder\tcontains;src_server\tsrc_server_pgstore\tcontains;src_server\tsrc_server_pool\tcontains;src_server\tsrc_server_reqhandler\tcontains;src_server\tsrc_server_requireauth\tcontains",
   "nodes": [
     {
       "id": "set_env",
@@ -24,8 +29,8 @@
       "file_type": "code",
       "source_file": "set-env.js",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "set_env_fs",
@@ -33,8 +38,8 @@
       "file_type": "code",
       "source_file": "set-env.js",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "set_env_path",
@@ -42,8 +47,8 @@
       "file_type": "code",
       "source_file": "set-env.js",
       "source_location": "L2",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "set_env_envpath",
@@ -51,17 +56,17 @@
       "file_type": "code",
       "source_file": "set-env.js",
       "source_location": "L5",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "set_env_envdir",
       "label": "envDir",
       "file_type": "code",
       "source_file": "set-env.js",
-      "source_location": "L30",
-      "community": 6,
-      "community_name": "Community 6"
+      "source_location": "L24",
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "app_age_profile_component",
@@ -69,26 +74,26 @@
       "file_type": "code",
       "source_file": "src/app/age-profile.component.ts",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_age_profile_component_ageprofilecomponent",
       "label": "AgeProfileComponent",
       "file_type": "code",
       "source_file": "src/app/age-profile.component.ts",
-      "source_location": "L50",
-      "community": 2,
-      "community_name": "Community 2"
+      "source_location": "L52",
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_age_profile_component_ageprofilecomponent_saveage",
       "label": ".saveAge()",
       "file_type": "code",
       "source_file": "src/app/age-profile.component.ts",
-      "source_location": "L56",
-      "community": 2,
-      "community_name": "Community 2"
+      "source_location": "L58",
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_app_config_server",
@@ -96,8 +101,8 @@
       "file_type": "code",
       "source_file": "src/app/app.config.server.ts",
       "source_location": "L1",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_config_server_serverconfig",
@@ -105,8 +110,8 @@
       "file_type": "code",
       "source_file": "src/app/app.config.server.ts",
       "source_location": "L6",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_config_server_config",
@@ -114,8 +119,8 @@
       "file_type": "code",
       "source_file": "src/app/app.config.server.ts",
       "source_location": "L10",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_config",
@@ -123,8 +128,8 @@
       "file_type": "code",
       "source_file": "src/app/app.config.ts",
       "source_location": "L1",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_config_appconfig",
@@ -132,8 +137,8 @@
       "file_type": "code",
       "source_file": "src/app/app.config.ts",
       "source_location": "L4",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_routes_server",
@@ -141,8 +146,8 @@
       "file_type": "code",
       "source_file": "src/app/app.routes.server.ts",
       "source_location": "L1",
-      "community": 9,
-      "community_name": "Community 9"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_routes_server_serverroutes",
@@ -150,8 +155,8 @@
       "file_type": "code",
       "source_file": "src/app/app.routes.server.ts",
       "source_location": "L3",
-      "community": 9,
-      "community_name": "Community 9"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_spec",
@@ -159,8 +164,62 @@
       "file_type": "code",
       "source_file": "src/app/app.spec.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_fakeresponse",
+      "label": "fakeResponse()",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L5",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_stubfetch",
+      "label": "stubFetch()",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L13",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_user",
+      "label": "USER",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L19",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_nosession",
+      "label": "noSession()",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L21",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_withprofile",
+      "label": "withProfile()",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L26",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_spec_flush",
+      "label": "flush()",
+      "file_type": "code",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L35",
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app",
@@ -168,17 +227,44 @@
       "file_type": "code",
       "source_file": "src/app/app.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_app_app",
       "label": "App",
       "file_type": "code",
       "source_file": "src/app/app.ts",
-      "source_location": "L15",
-      "community": 3,
-      "community_name": "Community 3"
+      "source_location": "L16",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_app_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L21",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_app_toggleageeditor",
+      "label": ".toggleAgeEditor()",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L30",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app_app_toggleprofile",
+      "label": ".toggleProfile()",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L34",
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "app_auth_component",
@@ -186,35 +272,44 @@
       "file_type": "code",
       "source_file": "src/app/auth.component.ts",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_auth_component_authcomponent",
       "label": "AuthComponent",
       "file_type": "code",
       "source_file": "src/app/auth.component.ts",
-      "source_location": "L68",
-      "community": 2,
-      "community_name": "Community 2"
+      "source_location": "L103",
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_auth_component_authcomponent_togglemode",
       "label": ".toggleMode()",
       "file_type": "code",
       "source_file": "src/app/auth.component.ts",
-      "source_location": "L77",
-      "community": 2,
-      "community_name": "Community 2"
+      "source_location": "L112",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "app_auth_component_authcomponent_loginwithgoogle",
+      "label": ".loginWithGoogle()",
+      "file_type": "code",
+      "source_file": "src/app/auth.component.ts",
+      "source_location": "L118",
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_auth_component_authcomponent_onsubmit",
       "label": ".onSubmit()",
       "file_type": "code",
       "source_file": "src/app/auth.component.ts",
-      "source_location": "L83",
-      "community": 2,
-      "community_name": "Community 2"
+      "source_location": "L122",
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_game_service",
@@ -222,134 +317,314 @@
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 6,
+      "community_name": "Community 6"
+    },
+    {
+      "id": "app_game_service_usersession",
+      "label": "UserSession",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L4",
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "app_game_service_gameoperationpart",
       "label": "GameOperationPart",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L5",
-      "community": 5,
-      "community_name": "Community 5"
+      "source_location": "L12",
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "app_game_service_gameoperation",
       "label": "GameOperation",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L11",
-      "community": 5,
-      "community_name": "Community 5"
+      "source_location": "L18",
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "app_game_service_gameservice",
       "label": "GameService",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L23",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L30",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_constructor",
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L44",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L54",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_initauth",
       "label": ".initAuth()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L49",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L58",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_fetchprofile",
       "label": ".fetchProfile()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L64",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L80",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_login",
       "label": ".login()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L90",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L113",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_game_service_gameservice_loginwithgoogle",
+      "label": ".loginWithGoogle()",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L134",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_register",
       "label": ".register()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L95",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L138",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_logout",
       "label": ".logout()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L100",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L159",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_game_service_gameservice_startinactivitymonitor",
+      "label": ".startInactivityMonitor()",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L176",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_game_service_gameservice_extendsession",
+      "label": ".extendSession()",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L204",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_game_service_gameservice_clearinactivitytimers",
+      "label": ".clearInactivityTimers()",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L210",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_saveage",
       "label": ".saveAge()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L104",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L223",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_setlevel",
       "label": ".setLevel()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L115",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L245",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_generatenewround",
       "label": ".generateNewRound()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L120",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L250",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_updateinput",
       "label": ".updateInput()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L230",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L360",
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_game_service_gameservice_checkwincondition",
       "label": ".checkWinCondition()",
       "file_type": "code",
       "source_file": "src/app/game.service.ts",
-      "source_location": "L242",
-      "community": 0,
-      "community_name": "Community 0"
+      "source_location": "L371",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_game_service_gameservice_fetchoperationhistory",
+      "label": ".fetchOperationHistory()",
+      "file_type": "code",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L406",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_profile_component",
+      "label": "profile.component.ts",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent",
+      "label": "ProfileComponent",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L556",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L576",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_loadstats",
+      "label": ".loadStats()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L580",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_goback",
+      "label": ".goBack()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L626",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_formattime",
+      "label": ".formatTime()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L630",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_speedemoji",
+      "label": ".speedEmoji()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L639",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_speedtext",
+      "label": ".speedText()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L647",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_speedpercent",
+      "label": ".speedPercent()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L655",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_formatdaylabel",
+      "label": ".formatDayLabel()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L663",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_barcolor",
+      "label": ".barColor()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L669",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_trackbydate",
+      "label": ".trackByDate()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L680",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_funemoji",
+      "label": ".funEmoji()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L684",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_profile_component_profilecomponent_funfact",
+      "label": ".funFact()",
+      "file_type": "code",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L694",
+      "community": 3,
+      "community_name": "Community 3"
     },
     {
       "id": "src_main_server",
@@ -357,8 +632,8 @@
       "file_type": "code",
       "source_file": "src/main.server.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "src_main_server_bootstrap",
@@ -366,8 +641,8 @@
       "file_type": "code",
       "source_file": "src/main.server.ts",
       "source_location": "L5",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "src_main",
@@ -375,8 +650,8 @@
       "file_type": "code",
       "source_file": "src/main.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "src_server",
@@ -384,44 +659,129 @@
       "file_type": "code",
       "source_file": "src/server.ts",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "src_server_browserdistfolder",
       "label": "browserDistFolder",
       "file_type": "code",
       "source_file": "src/server.ts",
-      "source_location": "L10",
-      "community": 1,
-      "community_name": "Community 1"
+      "source_location": "L17",
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "src_server_app",
       "label": "app",
       "file_type": "code",
       "source_file": "src/server.ts",
-      "source_location": "L12",
-      "community": 1,
-      "community_name": "Community 1"
+      "source_location": "L19",
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "src_server_angularapp",
       "label": "angularApp",
       "file_type": "code",
       "source_file": "src/server.ts",
-      "source_location": "L13",
-      "community": 1,
-      "community_name": "Community 1"
+      "source_location": "L20",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "src_server_pool",
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/server.ts",
+      "source_location": "L29",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "src_server_pgstore",
+      "label": "PgStore",
+      "file_type": "code",
+      "source_file": "src/server.ts",
+      "source_location": "L42",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "src_server_requireauth",
+      "label": "requireAuth()",
+      "file_type": "code",
+      "source_file": "src/server.ts",
+      "source_location": "L133",
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "src_server_reqhandler",
       "label": "reqHandler",
       "file_type": "code",
       "source_file": "src/server.ts",
-      "source_location": "L66",
-      "community": 1,
-      "community_name": "Community 1"
+      "source_location": "L377",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "label": "2932650 initial commit",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/serrig/SumaMatriculas",
+      "sha": "2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "author": "Nacho Serrano <ignaserrano@gmail.com>",
+      "authoredAt": "2026-04-24T21:37:16+02:00",
+      "message_summary": "initial commit",
+      "message_length": 14,
+      "parents": [],
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "label": "677db73 First commit with whole app working.",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/serrig/SumaMatriculas",
+      "sha": "677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "author": "Nacho Serrano <ignaserrano@gmail.com>",
+      "authoredAt": "2026-07-12T22:45:39+02:00",
+      "message_summary": "First commit with whole app working.",
+      "message_length": 36,
+      "parents": [
+        "2932650d1e9fcb5f05a2816d5ba0e8297c77c50e"
+      ],
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "branch:repo:github.com/serrig/SumaMatriculas#feature/testing",
+      "label": "feature/testing",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Branch",
+      "repo": "repo:github.com/serrig/SumaMatriculas",
+      "branch_name": "feature/testing",
+      "head_sha": "677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "branch:repo:github.com/serrig/SumaMatriculas#master",
+      "label": "master",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Branch",
+      "repo": "repo:github.com/serrig/SumaMatriculas",
+      "branch_name": "master",
+      "head_sha": "677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "community": 0,
+      "community_name": "Community 0"
     },
     {
       "id": "claude_md",
@@ -433,8 +793,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_knowledge_graph",
@@ -446,8 +806,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_query",
@@ -459,8 +819,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_path",
@@ -472,8 +832,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_explain",
@@ -485,8 +845,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_summary",
@@ -498,8 +858,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_graphify_review_delta",
@@ -511,8 +871,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_pretooluse_hooks",
@@ -524,8 +884,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_portable_check",
@@ -537,8 +897,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 5,
+      "community_name": "Community 5"
     },
     {
       "id": "claude_md_hook_rebuild",
@@ -550,8 +910,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md",
@@ -563,8 +923,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_suma_matriculas",
@@ -576,8 +936,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_angular_cli",
@@ -589,8 +949,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_dev_server",
@@ -602,8 +962,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_build_system",
@@ -615,8 +975,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_vitest",
@@ -628,8 +988,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_e2e_testing",
@@ -641,8 +1001,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "readme_md_code_scaffolding",
@@ -654,8 +1014,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "app_html",
@@ -667,8 +1027,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_html_auth_flow",
@@ -680,8 +1040,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "app_html_game_container",
@@ -693,8 +1053,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "community_name": "Community 0"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_html_score_board",
@@ -706,8 +1066,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "community_name": "Community 0"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_html_target_number",
@@ -719,8 +1079,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "community_name": "Community 0"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_html_operations_grid",
@@ -732,8 +1092,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "app_html_formula_interactive",
@@ -745,8 +1105,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "app_html_loading_state",
@@ -758,8 +1118,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "index_html",
@@ -771,8 +1131,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "index_html_app_root",
@@ -784,8 +1144,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "index_html_suma_matriculas_title",
@@ -797,8 +1157,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 2,
+      "community_name": "Community 2"
     }
   ],
   "links": [
@@ -836,6 +1196,42 @@
       "weight": 1,
       "_src": "app_app",
       "_tgt": "app_app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_app",
+      "target": "app_app_app_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L21",
+      "weight": 1,
+      "_src": "app_app_app",
+      "_tgt": "app_app_app_constructor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_app",
+      "target": "app_app_app_toggleageeditor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L30",
+      "weight": 1,
+      "_src": "app_app_app",
+      "_tgt": "app_app_app_toggleageeditor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_app",
+      "target": "app_app_app_toggleprofile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L34",
+      "weight": 1,
+      "_src": "app_app_app",
+      "_tgt": "app_app_app_toggleprofile",
       "confidence_score": 1
     },
     {
@@ -911,6 +1307,78 @@
       "confidence_score": 1
     },
     {
+      "source": "app_app_spec",
+      "target": "app_app_spec_fakeresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_fakeresponse",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_spec",
+      "target": "app_app_spec_flush",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L35",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_flush",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_spec",
+      "target": "app_app_spec_nosession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L21",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_nosession",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_spec",
+      "target": "app_app_spec_stubfetch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L13",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_stubfetch",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_spec",
+      "target": "app_app_spec_user",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L19",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_user",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_app_spec",
+      "target": "app_app_spec_withprofile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L26",
+      "weight": 1,
+      "_src": "app_app_spec",
+      "_tgt": "app_app_spec_withprofile",
+      "confidence_score": 1
+    },
+    {
       "source": "app_auth_component",
       "target": "app_auth_component_authcomponent",
       "relation": "contains",
@@ -920,6 +1388,18 @@
       "weight": 1,
       "_src": "app_auth_component",
       "_tgt": "app_auth_component_authcomponent",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_auth_component_authcomponent",
+      "target": "app_auth_component_authcomponent_loginwithgoogle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/auth.component.ts",
+      "source_location": "L118",
+      "weight": 1,
+      "_src": "app_auth_component_authcomponent",
+      "_tgt": "app_auth_component_authcomponent_loginwithgoogle",
       "confidence_score": 1
     },
     {
@@ -983,6 +1463,18 @@
       "confidence_score": 1
     },
     {
+      "source": "app_game_service",
+      "target": "app_game_service_usersession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "app_game_service",
+      "_tgt": "app_game_service_usersession",
+      "confidence_score": 1
+    },
+    {
       "source": "app_game_service_gameservice",
       "target": "app_game_service_gameservice_checkwincondition",
       "relation": "method",
@@ -996,6 +1488,18 @@
     },
     {
       "source": "app_game_service_gameservice",
+      "target": "app_game_service_gameservice_clearinactivitytimers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L210",
+      "weight": 1,
+      "_src": "app_game_service_gameservice",
+      "_tgt": "app_game_service_gameservice_clearinactivitytimers",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice",
       "target": "app_game_service_gameservice_constructor",
       "relation": "method",
       "confidence": "EXTRACTED",
@@ -1004,6 +1508,30 @@
       "weight": 1,
       "_src": "app_game_service_gameservice",
       "_tgt": "app_game_service_gameservice_constructor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice",
+      "target": "app_game_service_gameservice_extendsession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L204",
+      "weight": 1,
+      "_src": "app_game_service_gameservice",
+      "_tgt": "app_game_service_gameservice_extendsession",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice",
+      "target": "app_game_service_gameservice_fetchoperationhistory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L406",
+      "weight": 1,
+      "_src": "app_game_service_gameservice",
+      "_tgt": "app_game_service_gameservice_fetchoperationhistory",
       "confidence_score": 1
     },
     {
@@ -1056,6 +1584,18 @@
     },
     {
       "source": "app_game_service_gameservice",
+      "target": "app_game_service_gameservice_loginwithgoogle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L134",
+      "weight": 1,
+      "_src": "app_game_service_gameservice",
+      "_tgt": "app_game_service_gameservice_loginwithgoogle",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice",
       "target": "app_game_service_gameservice_logout",
       "relation": "method",
       "confidence": "EXTRACTED",
@@ -1104,6 +1644,18 @@
     },
     {
       "source": "app_game_service_gameservice",
+      "target": "app_game_service_gameservice_startinactivitymonitor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L176",
+      "weight": 1,
+      "_src": "app_game_service_gameservice",
+      "_tgt": "app_game_service_gameservice_startinactivitymonitor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice",
       "target": "app_game_service_gameservice_updateinput",
       "relation": "method",
       "confidence": "EXTRACTED",
@@ -1124,6 +1676,30 @@
       "weight": 1,
       "_src": "app_game_service_gameservice_constructor",
       "_tgt": "app_game_service_gameservice_initauth",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_extendsession",
+      "target": "app_game_service_gameservice_clearinactivitytimers",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L206",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_extendsession",
+      "_tgt": "app_game_service_gameservice_clearinactivitytimers",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_extendsession",
+      "target": "app_game_service_gameservice_startinactivitymonitor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L207",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_extendsession",
+      "_tgt": "app_game_service_gameservice_startinactivitymonitor",
       "confidence_score": 1
     },
     {
@@ -1148,6 +1724,90 @@
       "weight": 1,
       "_src": "app_game_service_gameservice_fetchprofile",
       "_tgt": "app_game_service_gameservice_setlevel",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_initauth",
+      "target": "app_game_service_gameservice_fetchprofile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L67",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_initauth",
+      "_tgt": "app_game_service_gameservice_fetchprofile",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_initauth",
+      "target": "app_game_service_gameservice_startinactivitymonitor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L66",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_initauth",
+      "_tgt": "app_game_service_gameservice_startinactivitymonitor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_login",
+      "target": "app_game_service_gameservice_fetchprofile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L125",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_login",
+      "_tgt": "app_game_service_gameservice_fetchprofile",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_login",
+      "target": "app_game_service_gameservice_startinactivitymonitor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L124",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_login",
+      "_tgt": "app_game_service_gameservice_startinactivitymonitor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_logout",
+      "target": "app_game_service_gameservice_clearinactivitytimers",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L160",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_logout",
+      "_tgt": "app_game_service_gameservice_clearinactivitytimers",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_register",
+      "target": "app_game_service_gameservice_fetchprofile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L150",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_register",
+      "_tgt": "app_game_service_gameservice_fetchprofile",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_game_service_gameservice_register",
+      "target": "app_game_service_gameservice_startinactivitymonitor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "source_location": "L149",
+      "weight": 1,
+      "_src": "app_game_service_gameservice_register",
+      "_tgt": "app_game_service_gameservice_startinactivitymonitor",
       "confidence_score": 1
     },
     {
@@ -1184,6 +1844,676 @@
       "weight": 1,
       "_src": "app_game_service_gameservice_updateinput",
       "_tgt": "app_game_service_gameservice_checkwincondition",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component",
+      "target": "app_profile_component_profilecomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L556",
+      "weight": 1,
+      "_src": "app_profile_component",
+      "_tgt": "app_profile_component_profilecomponent",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_barcolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L669",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_barcolor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L576",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_constructor",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_formatdaylabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L663",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_formatdaylabel",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_formattime",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L630",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_formattime",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_funemoji",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L684",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_funemoji",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_funfact",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L694",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_funfact",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_goback",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L626",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_goback",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_loadstats",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L580",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_loadstats",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_speedemoji",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L639",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_speedemoji",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_speedpercent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L655",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_speedpercent",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_speedtext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L647",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_speedtext",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent",
+      "target": "app_profile_component_profilecomponent_trackbydate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L680",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent",
+      "_tgt": "app_profile_component_profilecomponent_trackbydate",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_profile_component_profilecomponent_constructor",
+      "target": "app_profile_component_profilecomponent_loadstats",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "source_location": "L577",
+      "weight": 1,
+      "_src": "app_profile_component_profilecomponent_constructor",
+      "_tgt": "app_profile_component_profilecomponent_loadstats",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "app_app",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "added": 11,
+      "deleted": 0,
+      "file_path": "src/app/app.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "app_app_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "added": 9,
+      "deleted": 0,
+      "file_path": "src/app/app.config.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "app_app_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "app_app_config_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.server.ts",
+      "added": 12,
+      "deleted": 0,
+      "file_path": "src/app/app.config.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "app_app_config_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "app_app_routes_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.server.ts",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "src/app/app.routes.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "app_app_routes_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "app_app_spec",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "added": 23,
+      "deleted": 0,
+      "file_path": "src/app/app.spec.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "app_app_spec",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "branch:repo:github.com/serrig/SumaMatriculas#feature/testing",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "branch:repo:github.com/serrig/SumaMatriculas#feature/testing",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "branch:repo:github.com/serrig/SumaMatriculas#master",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "branch:repo:github.com/serrig/SumaMatriculas#master",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "src_main",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "added": 6,
+      "deleted": 0,
+      "file_path": "src/main.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "src_main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "src_main_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "src/main.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "src_main_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "target": "src_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "added": 68,
+      "deleted": 0,
+      "file_path": "src/server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@2932650d1e9fcb5f05a2816d5ba0e8297c77c50e",
+      "_tgt": "src_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_age_profile_component",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/age-profile.component.ts",
+      "added": 68,
+      "deleted": 0,
+      "file_path": "src/app/age-profile.component.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_age_profile_component",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_app",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "added": 30,
+      "deleted": 4,
+      "file_path": "src/app/app.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_app_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "added": 1,
+      "deleted": 4,
+      "file_path": "src/app/app.config.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_app_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_app_config_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.server.ts",
+      "added": 1,
+      "deleted": 3,
+      "file_path": "src/app/app.config.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_app_config_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_app_routes_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.server.ts",
+      "added": 5,
+      "deleted": 2,
+      "file_path": "src/app/app.routes.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_app_routes_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_auth_component",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/auth.component.ts",
+      "added": 142,
+      "deleted": 0,
+      "file_path": "src/app/auth.component.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_auth_component",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_game_service",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/game.service.ts",
+      "added": 423,
+      "deleted": 0,
+      "file_path": "src/app/game.service.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_game_service",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "app_profile_component",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/profile.component.ts",
+      "added": 705,
+      "deleted": 0,
+      "file_path": "src/app/profile.component.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "app_profile_component",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "branch:repo:github.com/serrig/SumaMatriculas#feature/testing",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "branch:repo:github.com/serrig/SumaMatriculas#feature/testing",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "branch:repo:github.com/serrig/SumaMatriculas#master",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "branch:repo:github.com/serrig/SumaMatriculas#master",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "set_env",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "set-env.js",
+      "added": 36,
+      "deleted": 0,
+      "file_path": "set-env.js",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "set_env",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "src_main",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "added": 1,
+      "deleted": 2,
+      "file_path": "src/main.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "src_main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "src_main_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "added": 1,
+      "deleted": 2,
+      "file_path": "src/main.server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "src_main_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "target": "src_server",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "added": 344,
+      "deleted": 35,
+      "file_path": "src/server.ts",
+      "_src": "commit:repo:github.com/serrig/SumaMatriculas@677db73dd70fe148de4ad4d6f7139a9b8b43a44d",
+      "_tgt": "src_server",
+      "confidence_score": 1
+    },
+    {
+      "source": "set_env",
+      "target": "set_env_envdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "set-env.js",
+      "source_location": "L30",
+      "weight": 1,
+      "_src": "set_env",
+      "_tgt": "set_env_envdir",
+      "confidence_score": 1
+    },
+    {
+      "source": "set_env",
+      "target": "set_env_envpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "set-env.js",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "set_env",
+      "_tgt": "set_env_envpath",
+      "confidence_score": 1
+    },
+    {
+      "source": "set_env",
+      "target": "set_env_fs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "set-env.js",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "set_env",
+      "_tgt": "set_env_fs",
+      "confidence_score": 1
+    },
+    {
+      "source": "set_env",
+      "target": "set_env_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "set-env.js",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "set_env",
+      "_tgt": "set_env_path",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_main",
+      "target": "app_app",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_main",
+      "_tgt": "app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_main",
+      "target": "app_app_app",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_main",
+      "_tgt": "app_app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_main_server",
+      "target": "app_app",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_main_server",
+      "_tgt": "app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_main_server",
+      "target": "app_app_app",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_main_server",
+      "_tgt": "app_app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_main_server",
+      "target": "src_main_server_bootstrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "src_main_server",
+      "_tgt": "src_main_server_bootstrap",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_angularapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L13",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_angularapp",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L12",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_browserdistfolder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L10",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_browserdistfolder",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_pgstore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L42",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_pgstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L29",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_pool",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_reqhandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L66",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_reqhandler",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_requireauth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.ts",
+      "source_location": "L133",
+      "weight": 1,
+      "_src": "src_server",
+      "_tgt": "src_server_requireauth",
       "confidence_score": 1
     },
     {
@@ -1677,162 +3007,6 @@
       "weight": 1,
       "_src": "readme_md_vitest",
       "_tgt": "app_app_spec"
-    },
-    {
-      "source": "set_env",
-      "target": "set_env_envdir",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "set-env.js",
-      "source_location": "L30",
-      "weight": 1,
-      "_src": "set_env",
-      "_tgt": "set_env_envdir",
-      "confidence_score": 1
-    },
-    {
-      "source": "set_env",
-      "target": "set_env_envpath",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "set-env.js",
-      "source_location": "L5",
-      "weight": 1,
-      "_src": "set_env",
-      "_tgt": "set_env_envpath",
-      "confidence_score": 1
-    },
-    {
-      "source": "set_env",
-      "target": "set_env_fs",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "set-env.js",
-      "source_location": "L1",
-      "weight": 1,
-      "_src": "set_env",
-      "_tgt": "set_env_fs",
-      "confidence_score": 1
-    },
-    {
-      "source": "set_env",
-      "target": "set_env_path",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "set-env.js",
-      "source_location": "L2",
-      "weight": 1,
-      "_src": "set_env",
-      "_tgt": "set_env_path",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_main",
-      "target": "app_app",
-      "relation": "imports_from",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.ts",
-      "source_location": "L3",
-      "weight": 1,
-      "_src": "src_main",
-      "_tgt": "app_app",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_main",
-      "target": "app_app_app",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.ts",
-      "source_location": "L3",
-      "weight": 1,
-      "_src": "src_main",
-      "_tgt": "app_app_app",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_main_server",
-      "target": "app_app",
-      "relation": "imports_from",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.server.ts",
-      "source_location": "L2",
-      "weight": 1,
-      "_src": "src_main_server",
-      "_tgt": "app_app",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_main_server",
-      "target": "app_app_app",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.server.ts",
-      "source_location": "L2",
-      "weight": 1,
-      "_src": "src_main_server",
-      "_tgt": "app_app_app",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_main_server",
-      "target": "src_main_server_bootstrap",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.server.ts",
-      "source_location": "L5",
-      "weight": 1,
-      "_src": "src_main_server",
-      "_tgt": "src_main_server_bootstrap",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_server",
-      "target": "src_server_angularapp",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/server.ts",
-      "source_location": "L13",
-      "weight": 1,
-      "_src": "src_server",
-      "_tgt": "src_server_angularapp",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_server",
-      "target": "src_server_app",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/server.ts",
-      "source_location": "L12",
-      "weight": 1,
-      "_src": "src_server",
-      "_tgt": "src_server_app",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_server",
-      "target": "src_server_browserdistfolder",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/server.ts",
-      "source_location": "L10",
-      "weight": 1,
-      "_src": "src_server",
-      "_tgt": "src_server_browserdistfolder",
-      "confidence_score": 1
-    },
-    {
-      "source": "src_server",
-      "target": "src_server_reqhandler",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/server.ts",
-      "source_location": "L66",
-      "weight": 1,
-      "_src": "src_server",
-      "_tgt": "src_server_reqhandler",
-      "confidence_score": 1
     }
   ],
   "hyperedges": [

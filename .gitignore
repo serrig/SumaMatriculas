@@ -51,7 +51,7 @@ skills-lock.json
 # Knowledge graph cache & analysis (not portable)
 .graphify/cache/
 .graphify/.graphify/
-.graphify/.graphify_*.json
+.graphify/.graphify_*
 .graphify/branch.json
 .graphify/worktree.json
 .graphify/needs_update

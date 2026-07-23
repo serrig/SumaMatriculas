@@ -16,8 +16,8 @@
     "hash": "e3949d1ac93bac01992ca9c0043cf2d1"
   },
   "src/app/app.spec.ts": {
-    "mtime": 1777059420705.91,
-    "hash": "ebb752ba05ad38898430fb2f3ce04418"
+    "mtime": 1784826816330.88,
+    "hash": "3e2fa2584b56bf66d111dc816815d407"
   },
   "src/app/app.ts": {
     "mtime": 1782931064972.9937,
@@ -32,19 +32,59 @@
     "hash": "f3983daa46dc263bf3c8d0dd448a5a01"
   },
   "src/server.ts": {
-    "mtime": 1777059436569.7747,
-    "hash": "c2084deff29ae6b97b48c5a161c71338"
+    "mtime": 1783882394056.0078,
+    "hash": "2de4b5c4af9a6a413efff5ded139b979"
   },
   "README.md": {
-    "mtime": 1777059420704.5928,
-    "hash": "5ff26be0d1eebae43d3edf9aaa37f077"
+    "mtime": 1783886080569.246,
+    "hash": "0a04123727c18fbcda8e0c894a21b0e8"
   },
   "src/app/app.html": {
-    "mtime": 1783095865069.2708,
-    "hash": "f657b0d8051692b5b9d983f8e872e965"
+    "mtime": 1783880113467.5623,
+    "hash": "36e73dbf0c60a7cc7c80f77d5495b0d2"
   },
   "src/index.html": {
     "mtime": 1777059436556.4336,
     "hash": "0f77b703ff5d142f33fd05cd9aa18f97"
+  },
+  "set-env.js": {
+    "mtime": 1783883275930.3535,
+    "hash": "c78c901243aac4a5b21748f7dd9a4b97"
+  },
+  "src/app/age-profile.component.ts": {
+    "mtime": 1783010818097.7673,
+    "hash": "abdb8a8cb27103fd758b23b6ec580e54"
+  },
+  "src/app/auth.component.ts": {
+    "mtime": 1783880112375.8738,
+    "hash": "9862c26490833ba93418c21966143a1d"
+  },
+  "src/app/game.service.ts": {
+    "mtime": 1783883301251.9773,
+    "hash": "1f88ae0f177b31f11890db198d0355dd"
+  },
+  "src/app/profile.component.ts": {
+    "mtime": 1783880115175.4092,
+    "hash": "6dc1ef323d335dfd25bae1b4c0e90e64"
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1783886884911.2622,
+    "hash": "d13a56135421c71e125459e5e54409a6"
+  },
+  ".graphify/GRAPH_REPORT.md": {
+    "mtime": 1782839506294.2493,
+    "hash": "3a3220312c6ed45ec555a41484202ee0"
+  },
+  "AGENTS.md": {
+    "mtime": 1783358516680.445,
+    "hash": "61f38cfc1d035adaaf99d48df9e3919b"
+  },
+  "CLAUDE.md": {
+    "mtime": 1782839011939.0547,
+    "hash": "43933251c7da7a98da7b57cd858902b1"
+  },
+  "docker-compose.yml": {
+    "mtime": 1783879018802.557,
+    "hash": "e010a0db599d2488e870c452d4aa70d6"
   }
 }
