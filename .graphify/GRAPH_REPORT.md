@@ -1,24 +1,24 @@
-# Graph Report - .  (2026-07-23)
+# Graph Report - .  (2026-07-24)
 
 ## Corpus Check
-- Corpus is ~9,190 words - fits in a single context window. You may not need a graph.
+- Corpus is ~14,880 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 111 nodes · 153 edges · 8 communities detected
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.82)
+- 144 nodes · 205 edges · 10 communities detected
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 39 · method: 35 · MODIFIES: 20 · calls: 17 · conceptually_related_to: 8 · has_tool: 7 · has_workflow: 5 · ON_BRANCH: 4 · references: 4 · imports: 3 · imports_from: 3 · renders: 3 · describes: 2 · built_with: 1 · PARENT_OF: 1 · provides: 1
+- Edge kinds: contains: 62 · method: 35 · MODIFIES: 32 · calls: 19 · ON_BRANCH: 12 · conceptually_related_to: 8 · has_tool: 7 · PARENT_OF: 7 · has_workflow: 5 · imports_from: 4 · references: 4 · imports: 3 · renders: 3 · describes: 2 · built_with: 1 · provides: 1
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 22 · Candidates: 41
-- Excluded: 6 untracked · 23505 ignored · 0 sensitive · 0 missing committed
+- Included files: 27 · Candidates: 47
+- Excluded: 1 untracked · 23451 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `677db73`
+- Built from Git commit: `6d19fc1`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `GameService` - 21 edges
@@ -52,40 +52,48 @@
 
 ## Communities
 
+### Community 9 - "Community 9"
+Cohesion: 0.40
+Nodes (4): fs, path, envPath, envDir
+
+### Community 4 - "Community 4"
+Cohesion: 0.19
+Nodes (5): HISTORY, 4d95ea3 Merge pull request #3 from serrig/develop, 6d19fc1 Merge pull request #2 from serrig/dependabot/npm_and_yarn/npm_and_yarn-8998e6e628, ce85ce2 Bump the npm_and_yarn group across 1 directory with 16 updates, master
+
+### Community 5 - "Community 5"
+Cohesion: 0.18
+Nodes (5): AgeProfileComponent, AuthComponent, app.html - Main Application Template, Three-Mode Authentication UI Flow, Loading State with Spinner
+
 ### Community 0 - "Community 0"
 Cohesion: 0.12
-Nodes (10): App, appConfig, config, serverConfig, serverRoutes, USER, feature/testing, master (+2 more)
+Nodes (11): serverConfig, config, appConfig, serverRoutes, USER, App, 028ae89 adding tests to the code base, 2932650 initial commit (+3 more)
+
+### Community 6 - "Community 6"
+Cohesion: 0.22
+Nodes (4): FetchHandler, flushMicrotasks(), USER, createService()
 
 ### Community 1 - "Community 1"
-Cohesion: 0.19
-Nodes (4): GameService, Game Container UI, Score Board, Target Number Display
-
-### Community 2 - "Community 2"
-Cohesion: 0.11
-Nodes (17): graphify hook-rebuild, index.html - Application Entry Point, app-root Bootstrap Element, SumaMatriculas Page Title, Angular CLI v21.2.8, Production Build (ng build), Code Scaffolding (ng generate), Development Server (ng serve) (+9 more)
+Cohesion: 0.14
+Nodes (9): UserSession, GameOperationPart, GameOperation, GameService, Game Container UI, Score Board, Target Number Display, Math Operations Grid (+1 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.15
 Nodes (1): ProfileComponent
 
-### Community 4 - "Community 4"
-Cohesion: 0.18
-Nodes (5): AgeProfileComponent, AuthComponent, app.html - Main Application Template, Three-Mode Authentication UI Flow, Loading State with Spinner
+### Community 8 - "Community 8"
+Cohesion: 0.25
+Nodes (6): AngularNodeAppEngine, DbUser, db, Pool, agent(), registerAndLogin()
 
-### Community 5 - "Community 5"
-Cohesion: 0.22
-Nodes (8): graphify explain command, Graphify Knowledge Graph, graphify path command, graphify query command, graphify review-delta command, graphify summary command, graphify portable-check, PreToolUse Hooks
-
-### Community 6 - "Community 6"
-Cohesion: 0.33
-Nodes (5): GameOperation, GameOperationPart, UserSession, Interactive Formula Inputs, Math Operations Grid
+### Community 2 - "Community 2"
+Cohesion: 0.11
+Nodes (17): browserDistFolder, app, angularApp, pool, PgStore, reqHandler, graphify hook-rebuild, SumaMatriculas Project (+9 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.40
-Nodes (4): envDir, envPath, fs, path
+Cohesion: 0.22
+Nodes (8): Graphify Knowledge Graph, graphify query command, graphify path command, graphify explain command, graphify summary command, graphify review-delta command, PreToolUse Hooks, graphify portable-check
 
 ## Knowledge Gaps
-- **25 isolated node(s):** `fs`, `path`, `envPath`, `envDir`, `serverConfig` (+20 more)
+- **32 isolated node(s):** `fs`, `path`, `envPath`, `envDir`, `serverConfig` (+27 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 3`** (1 nodes): `ProfileComponent`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -93,13 +101,13 @@ Nodes (4): envDir, envPath, fs, path
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `GameService` connect `Community 1` to `Community 6`, `Community 4`?**
-  _High betweenness centrality (0.337) - this node is a cross-community bridge._
-- **Why does `Development Server (ng serve)` connect `Community 2` to `Community 0`?**
-  _High betweenness centrality (0.208) - this node is a cross-community bridge._
+- **Why does `GameService` connect `Community 1` to `Community 5`?**
+  _High betweenness centrality (0.267) - this node is a cross-community bridge._
 - **What connects `fs`, `path`, `envPath` to the rest of the system?**
-  _25 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _32 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1225071225071225 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.13538461538461538 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11052631578947368 - nodes in this community are weakly interconnected._

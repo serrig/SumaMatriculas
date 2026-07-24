@@ -51,7 +51,10 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie: {
-      secure: process.env['NODE_ENV'] === 'production',
+      // COOKIE_SECURE only when serving over HTTPS (never tie to NODE_ENV:
+      // local Docker runs NODE_ENV=production over plain HTTP, and
+      // express-session refuses to send Secure cookies without TLS).
+      secure: process.env['COOKIE_SECURE'] === 'true',
       maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
     },
   })
