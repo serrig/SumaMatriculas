@@ -16,7 +16,7 @@
     "hash": "e3949d1ac93bac01992ca9c0043cf2d1"
   },
   "src/app/app.spec.ts": {
-    "mtime": 1784826816330.88,
+    "mtime": 1784830424172.5525,
     "hash": "3e2fa2584b56bf66d111dc816815d407"
   },
   "src/app/app.ts": {
@@ -32,8 +32,8 @@
     "hash": "f3983daa46dc263bf3c8d0dd448a5a01"
   },
   "src/server.ts": {
-    "mtime": 1783882394056.0078,
-    "hash": "2de4b5c4af9a6a413efff5ded139b979"
+    "mtime": 1784907128884.744,
+    "hash": "724b5c9c30a9e5dbbfb9462545fdbccd"
   },
   "README.md": {
     "mtime": 1783886080569.246,
@@ -72,19 +72,39 @@
     "hash": "d13a56135421c71e125459e5e54409a6"
   },
   ".graphify/GRAPH_REPORT.md": {
-    "mtime": 1782839506294.2493,
-    "hash": "3a3220312c6ed45ec555a41484202ee0"
+    "mtime": 1784831710776.3423,
+    "hash": "1662e7159348fd6490e1e64312e0f519"
   },
   "AGENTS.md": {
     "mtime": 1783358516680.445,
     "hash": "61f38cfc1d035adaaf99d48df9e3919b"
   },
   "CLAUDE.md": {
-    "mtime": 1782839011939.0547,
-    "hash": "43933251c7da7a98da7b57cd858902b1"
+    "mtime": 1784830424171.317,
+    "hash": "e349b7bd21cedf0fb42a2fd55ba66f27"
   },
   "docker-compose.yml": {
-    "mtime": 1783879018802.557,
-    "hash": "e010a0db599d2488e870c452d4aa70d6"
+    "mtime": 1784831678199.273,
+    "hash": "f7a086e01fbf474e5afee69b9e0dde62"
+  },
+  "src/app/age-profile.component.spec.ts": {
+    "mtime": 1784830424172.4097,
+    "hash": "6997781be498f38cd94082a8b53c7a9d"
+  },
+  "src/app/auth.component.spec.ts": {
+    "mtime": 1784830424172.664,
+    "hash": "7dba9cfbe640f67c8eadcdd82db4f9ab"
+  },
+  "src/app/game.service.spec.ts": {
+    "mtime": 1784830424172.781,
+    "hash": "6f02dbe839fe12e0cefc5edcae02c596"
+  },
+  "src/app/profile.component.spec.ts": {
+    "mtime": 1784830424172.9597,
+    "hash": "e8572c2fcfc104f42abbb7bee85c5198"
+  },
+  "src/server.spec.ts": {
+    "mtime": 1784830424173.0952,
+    "hash": "0ea009ea4bd39e1fa4af1aab670a1897"
   }
 }
