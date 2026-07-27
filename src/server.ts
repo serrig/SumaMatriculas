@@ -35,7 +35,7 @@ const sessionSecret = requiredEnv('SESSION_SECRET');
 if (PLACEHOLDER_SECRETS.has(sessionSecret)) {
   throw new Error(
     'SESSION_SECRET matches a placeholder from the repo. ' +
-      'Generate a new one with: openssl rand -hex 32'
+    'Generate a new one with: openssl rand -hex 32'
   );
 }
 
@@ -45,7 +45,7 @@ const dbMasterPassword = requiredEnv('POSTGRES_PASSWORD');
 if (dbMasterPassword === 'postgres') {
   throw new Error(
     'POSTGRES_PASSWORD is the insecure default "postgres". ' +
-      'Set a strong password in your .env file.'
+    'Set a strong password in your .env file.'
   );
 }
 
@@ -55,7 +55,7 @@ const dbUser = requiredEnv('APP_DB_USER');
 if (dbUser === 'postgres' || dbUser === dbMasterUser) {
   throw new Error(
     `APP_DB_USER ("${dbUser}") must not be a superuser. ` +
-      'Use a separate, non-privileged user created by db/init/01-create-app-user.sh.'
+    'Use a separate, non-privileged user created by db/init/01-create-app-user.sh.'
   );
 }
 const dbPassword = requiredEnv('APP_DB_PASSWORD');
@@ -73,11 +73,9 @@ const browserDistFolder = join(import.meta.dirname, '../browser');
 const app = express();
 const angularApp = new AngularNodeAppEngine();
 
-// Trust the first proxy hop so Express picks up X-Forwarded-Proto from
-// Cloudflare Tunnel (or any reverse proxy in front) and marks cookies
-// as secure when COOKIE_SECURE=true. Without this, req.secure is false
-// even though the client sees HTTPS.
-app.set('trust proxy', 1);
+// Trust all reverse proxy hops (Cloudflare Tunnel -> Nginx Proxy Manager -> Express)
+// so Express accurately reads X-Forwarded-Proto and sets req.secure = true.
+app.set('trust proxy', true);
 
 const pool = new pg.Pool({
   user: dbUser,
@@ -98,16 +96,15 @@ app.use(
     store: new PgStore({
       pool,
       tableName: 'session',
-      createTableIfMissing: false,
+      createTableIfMissing: true,
     }),
     secret: sessionSecret,
     resave: false,
     saveUninitialized: false,
     cookie: {
-      // COOKIE_SECURE only when serving over HTTPS (never tie to NODE_ENV:
-      // local Docker runs NODE_ENV=production over plain HTTP, and
-      // express-session refuses to send Secure cookies without TLS).
-      secure: process.env['COOKIE_SECURE'] === 'true',
+      // 'auto' allows express-session to set Secure when req.secure is true
+      // without dropping cookies if proxy headers are missing during edge cases.
+      secure: process.env['COOKIE_SECURE'] === 'true' ? 'auto' : false,
       sameSite: 'lax',
       httpOnly: true,
       maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
@@ -294,9 +291,22 @@ app.get('/api/auth/google', (req, res, next) => {
 });
 
 app.get('/api/auth/google/callback', (req, res, next) => {
-  passport.authenticate('google', {
-    successRedirect: '/',
-    failureRedirect: '/?loginError=google',
+  passport.authenticate('google', (err: any, user: any, info: any) => {
+    if (err) {
+      console.error('[OAuth Error] Error en callback de Google:', err);
+      return res.redirect('/?loginError=' + encodeURIComponent(err.message || 'auth_error'));
+    }
+    if (!user) {
+      console.error('[OAuth Warning] No se obtuvo usuario de Google:', info);
+      return res.redirect('/?loginError=google_auth_failed');
+    }
+    req.login(user, (loginErr) => {
+      if (loginErr) {
+        console.error('[OAuth Error] Error al iniciar sesión con req.login:', loginErr);
+        return res.redirect('/?loginError=session_failed');
+      }
+      return res.redirect('/');
+    });
   })(req, res, next);
 });
 

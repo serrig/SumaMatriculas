@@ -56,8 +56,12 @@ skills-lock.json
 .graphify/worktree.json
 .graphify/needs_update
 
-# Environments
+# Environments and secret backups
 .env
+env_NAS
 /src/environments/environment.ts
 .mcp.json
+
+# Docker exported archives
+*.tar.gz
 
