@@ -12,7 +12,10 @@
     "serve:ssr:suma-matriculas": "node dist/suma-matriculas/server/server.mjs",
     "dev": "ng serve --port 4000",
     "test:server": "vitest run --config vitest.server.config.mts",
-    "test:all": "ng test --watch=false && npm run test:server"
+    "test:all": "ng test --watch=false && npm run test:server",
+    "docker:build:local": "docker build -t suma-matriculas-app:local .",
+    "docker:build:amd64": "docker buildx build --platform linux/amd64 -t suma-matriculas-app:amd64 --load .",
+    "docker:export:amd64": "npm run docker:build:amd64 && docker save suma-matriculas-app:amd64 | gzip > suma-amd64.tar.gz"
   },
   "private": true,
   "packageManager": "npm@10.9.4",

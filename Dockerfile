@@ -9,8 +9,8 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 
-# Build-time public URL (consumed by set-env.js → environment.ts)
-ENV APP_URL=http://localhost:4000
+# Build-time public URL
+ENV APP_URL=
 
 # Copy sources and Angular config
 COPY set-env.js ./
