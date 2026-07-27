@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# ────────────────────────────────────────────────────────────────────
+# Pre-commit hook — secret scanning con gitleaks
+# ────────────────────────────────────────────────────────────────────
+# Setup (una vez, después de clonar el repo):
+#   brew install gitleaks             # macOS
+#   git config core.hooksPath .githooks
+#
+# Qué hace: escanea los archivos staged en busca de secretos
+# (API keys, tokens, passwords, etc.) y bloquea el commit si encuentra
+# alguno. Si gitleaks no está instalado, avisa pero deja pasar.
+# ────────────────────────────────────────────────────────────────────
+
+set -euo pipefail
+
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo "⚠️  gitleaks no está instalado — saltando escaneo de secretos."
+  echo "    Instálalo con: brew install gitleaks"
+  echo "    Docs:          https://github.com/gitleaks/gitleaks"
+  exit 0
+fi
+
+echo "🔒 Escaneando staged files con gitleaks..."
+gitleaks protect --staged --no-banner --redact

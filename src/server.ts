@@ -35,7 +35,7 @@ const sessionSecret = requiredEnv('SESSION_SECRET');
 if (PLACEHOLDER_SECRETS.has(sessionSecret)) {
   throw new Error(
     'SESSION_SECRET matches a placeholder from the repo. ' +
-      'Generate a new one with: openssl rand -hex 32'
+    'Generate a new one with: openssl rand -hex 32'
   );
 }
 
@@ -45,7 +45,7 @@ const dbMasterPassword = requiredEnv('POSTGRES_PASSWORD');
 if (dbMasterPassword === 'postgres') {
   throw new Error(
     'POSTGRES_PASSWORD is the insecure default "postgres". ' +
-      'Set a strong password in your .env file.'
+    'Set a strong password in your .env file.'
   );
 }
 
@@ -55,7 +55,7 @@ const dbUser = requiredEnv('APP_DB_USER');
 if (dbUser === 'postgres' || dbUser === dbMasterUser) {
   throw new Error(
     `APP_DB_USER ("${dbUser}") must not be a superuser. ` +
-      'Use a separate, non-privileged user created by db/init/01-create-app-user.sh.'
+    'Use a separate, non-privileged user created by db/init/01-create-app-user.sh.'
   );
 }
 const dbPassword = requiredEnv('APP_DB_PASSWORD');
